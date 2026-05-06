@@ -8,6 +8,7 @@ El sitio incluye tres secciones principales:
 1.  **Inicio:** Información general del país (Capital, población, moneda).
 2.  **Presidentes:** Listado histórico ordenado por año de mandato.
 3.  **Sabores de Colombia:** Catálogo de platos típicos con su descripción y departamento de origen.
+![colombia](./img/img.png)
 
 ## 🚀 Tecnologías Usadas
 - **HTML5:** Estructura semántica de las páginas.
