@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presidentes de Colombia</title>
+    <link rel="stylesheet" href="stylos.css">
+</head>
+<body>
+
+    <!-- Menú de navegación (Requisito 2: Hipervínculos) -->
+    <nav>
+        <a href="index.html">Inicio (Colombia)</a>
+        <a href="presidentes.html">Presidentes</a>
+        <a href="platos.html">platos</a>
+    </nav>
+
+    <header>
+        <h1>Presidentes de Colombia</h1>
+        <p>Lista histórica obtenida desde la API oficial.</p>
+    </header>
+
+    <main>
+        <!-- Mensaje de carga (Requisito 7) -->
+        <div id="loading" class="status-message">Cargando presidentes...</div>
+        
+        <!-- Contenedor dinámico (Requisito 5) -->
+        <div id="presidentes-list" class="grid-container"></div>
+    </main>
+
+    <!-- Script específico para esta página -->
+    <script src="presidentes.js"></script>
+</body>
+</html>
